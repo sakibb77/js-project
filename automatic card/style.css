@@ -1,0 +1,230 @@
+* {
+    /* border: 1px solid rgb(76, 0, 255) !important; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 228, 233);
+    position: relative;
+    font-family: var(--font);
+}
+:root {
+    --bg-color: rgba(245, 59, 87,1.0);
+    --font: 'Roboto', sans-serif;
+}
+
+i {
+  cursor: pointer;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid var(--bg-color);
+    padding: 10px;
+    /* box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2); */
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input[type="button"] {
+    width: 280px;
+    background-color: var( --bg-color);
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.overlay-form {
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    /* transition: all 0.3s ease; */
+}
+
+
+/* form input */
+
+.form-box {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid rgb(221, 51, 51); */
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -0%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    transition: all 0.2s ease;
+    /* opacity: 0; */
+}
+
+
+
+.form-box i {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 25px;
+}
+
+
+.form-box p {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    color: red;
+}
+/* form input */
+
+
+.container {
+    min-width: 100%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.container h1 {
+    background-color: var(--bg-color);
+    color: rgb(255, 255, 255);
+    padding: 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+
+
+.card-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    /* border: 1px solid #555; */
+    border-radius: 4px;
+}
+
+.card-head {
+    width: 90%;
+    margin: auto;
+}
+
+.card-head > .card{
+    background-color: var(--bg-color) !important;
+    font-weight: 700 !important ;
+}
+.container .card {
+    height: 50px;
+    background-color: rgba(131, 149, 167,1.0);
+    border-radius: 4px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color :rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: var(--font);
+    font-weight: 400;
+}
+
+.container .card:nth-child(even){
+    background-color: rgba(200, 214, 229,1.0);
+    color: #555;
+}
+
+
+.add-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #555; */
+    border-radius: 5px;
+    height: 50px;
+}
+
+.add-btn input{
+    margin-bottom: 0;
+}
+
+.add-btn #search_span{
+    position: relative;
+}
+
+.add-btn #search_span i{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 22px;
+}
+
+.add-btn span i{
+    font-size: 2rem;
+    color: var(--bg-color);
+}
+
+.card-img-top{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+
+.card-body-top {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.email {
+    flex-basis: 30%;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    flex-basis: 10%;
+    justify-content: space-around;
+}

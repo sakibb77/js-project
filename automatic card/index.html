@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>student crud aplication</h1>
+        <div class="add-btn">
+            <span id="add" onclick="openForm()"><i class="fa-solid fa-circle-plus"></i></span>
+            <span id="search_span"><input type="text" name="search" id="input" onkeyup="search()"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+        <div class="card-head">
+            <div class="card">
+                <div class="fname item">
+                    <p>first name</p>
+                </div>
+
+                <div class="email item">
+                    <p>email</p>
+                </div>
+                <div class="age item">
+                    <p>age</p>
+                </div>
+                <div class="roll item">
+                    <p>roll</p>
+                </div>
+                <div class="action item">
+                    <p>action</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- card section -->
+        <div class="card-container">
+           
+        </div>
+    </div>
+
+    <div class="overlay-form" id="overlay">
+        <div class="form-box">
+            <p id="alert"></p>
+            <i class="fa-solid fa-xmark" id="xbtn" onclick="closeForm()"></i>
+            <input type="text" name="fname" id="fname" placeholder="enter your first name">
+            <input type="text" name="lname" id="lname" placeholder="enter your last name">
+            <input type="email" name="email" id="email" placeholder="enter your email">
+            <input type="number" name="age" id="age" placeholder="enter your age">
+            <input type="number" name="roll" id="roll" placeholder="enter your roll">
+            <input type="button" value="add student" id="add_btn">
+        </div>
+    </div>
+
+
+
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

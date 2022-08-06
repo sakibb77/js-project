@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 229, 229);
+    padding-top: 40px;
+}
+
+.box {
+    width: 500px;
+    margin: auto;
+}
+
+.namta {
+    width: 500px;
+    min-height: 0px;
+    max-height: 100vh;
+    margin: auto;
+    background-color: rgb(235, 230, 230);
+}
+
+.namta li {
+    list-style: none;
+    font-size: 20px;
+    text-align:center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05),
+                -0px -0px 4px rgba(0, 0, 0, 0.05);
+                /* 0px 0px 0px 4px rgba(0,0,0,0.05); */
+    margin-bottom: 10px;
+    border-radius: 8px;
+}

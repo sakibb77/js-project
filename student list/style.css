@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+
+}
+
+.student-name {
+    width: 30%;
+    height: 100vh;
+    overflow: scroll;
+    padding: 0 20px;
+}
+
+.student-name li {
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.student-name ul {
+    list-style: none;
+}
+
+.student-name h2 {
+    text-align: center;
+    padding: 20px;
+    color: rgb(235, 59, 59);
+}
+
+.student-details {
+    background-color: rgb(235, 202, 235);
+    width: 70%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
