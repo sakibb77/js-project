@@ -1,10 +1,9 @@
-"use strict"
+"use strict";
 
 // const { func } = require("prop-types");
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango" , "pineapple"];
 // fruits.sort();
-
 
 // let text = '<ul>';
 
@@ -28,10 +27,7 @@
 
 // document.getElementById('demo').innerHTML = text;
 
-
-
 // const fruits = ["Banana", "Orange", "Apple", "Mango" , "pineapple"];
-
 
 // let c = "Please";
 // let str = "Please locate where 'locate' occurs!";
@@ -45,7 +41,6 @@
 // // console.log(b)
 // console.log(result)
 // // console.log(c)
-
 
 // ===================================================
 
@@ -64,7 +59,6 @@
 //         }
 //     });
 
-
 //     a = Array.from(sentence).length;
 //     b = Array.from(sentence);
 //     b = b.join()
@@ -73,11 +67,9 @@
 //     return count;
 // }
 
-
 // console.log(countCharecter('What is Website'))
 
 // =================================================
-
 
 // const ages = [32, 33, 16, 40 , 45 , 17];
 // const result = ages.filter(checkAdult);
@@ -88,13 +80,11 @@
 
 // console.log(result)
 
-
 // function checkAge(age) {
 //     return age > 18;
 //   }
 
 // console.log(checkAge(25));
-
 
 // Array.prototype.sakib = function(){
 //     for(let i = 0; i < this.length; i++){
@@ -102,19 +92,15 @@
 //     }
 // }
 
-
 // let fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // fruits.sakib();
 
 // console.log(fruits)
 
-
-
 // let getJson = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
 
 // console.log(getJson.firstName)
-
 
 // setInterval(myTimer , 1000)
 
@@ -123,17 +109,13 @@
 //     document.getElementById("demo").innerHTML = d.toLocaleTimeString();
 // }
 
-
-
 // let text = "Is this all there is?";
 
 // let newText = text.split()
 
 // console.log(newText.toString());
 
-
 // let fruits = ["Banana", "Orange", "Apple", "Mango"];;
-
 
 // function myFunction(a) {
 //     let c = a[0];
@@ -151,8 +133,6 @@
 //     return arr.every((a , b) => (a === b))
 
 // }
-
-
 
 // function myFunction(a, b) {
 //     a.forEach(function (Value, index) {
@@ -179,7 +159,6 @@
 // }
 // console.log(myFunction([-10, 22, 333, 42], [-11, 5, 22, 41, 42]))
 
-
 // function myFunction(a ,b){
 //     let total = 0;
 //    const bigNumber = a.filter(function(value){
@@ -192,7 +171,6 @@
 // }
 
 // console.log(myFunction([78, 99, 100, 101, 401], 99))
-
 
 // function myFunction(arr) {
 //     let left = 0;
@@ -216,8 +194,6 @@
 // const a =(myFunction([5, 10 ,-5, -3, -1, 0, 2, 3, 6, 8]));
 // console.log(a);
 
-
-
 // let a = [5, 10 ,-5, -3, -1, 0, 2, 3, 6, 8];
 
 // a.sort(function(a , b){
@@ -237,21 +213,17 @@
 //     }
 // }
 
-
 // console.log(myFunction(a));
-
 
 // let myfunction = (a = 0 , b = 0) => a + b;
 
 // console.log(myfunction());
-
 
 // let fruits = new Set(["Banana", "Orange", "Apple", "Mango"]);
 
 // fruits.forEach(function(value){
 //     console.log(value)
 // })
-
 
 // function myFunction(){
 //     let count = 0;
@@ -267,7 +239,6 @@
 // console.log(add())
 
 // document.getElementById('test').addEventListener('click' , add);
-
 
 // const fruits = new Map();
 
@@ -294,11 +265,7 @@
 
 // add()
 
-
-
 // console.log(fruits)
-
-
 
 // function myMove(){
 //     const elem = document.querySelector('#animate');
@@ -317,7 +284,6 @@
 //     }
 // }
 
-
 // function change(a){
 
 //    let b = document.getElementById(a).value;
@@ -330,8 +296,6 @@
 //    id = document.getElementById('name');
 //     change(id);
 // }
-
-
 
 // let num = 10.51
 
@@ -360,10 +324,8 @@
 //   lastName: "Doe"
 // }
 
-
 // // This will return "Mary Doe":
 // console.log(person.fullName.apply(person1, ['one', 'two']));
-
 
 // class Student {
 //   constructor(fname, lname , school) {
@@ -372,7 +334,6 @@
 //     this.school = school;
 //   }
 // }
-
 
 // function createObject(){
 //   let fname = document.querySelector('#fname');
@@ -429,8 +390,6 @@
 //   progress(getCertificate)
 // })
 
-
-
 // let paymentStatus = true;
 // let marks = 60;
 
@@ -476,7 +435,6 @@
 //   return promise;
 // }
 
-
 // // enroll()
 // //   .then(progress)
 // //   .then(getCertificate)
@@ -493,7 +451,6 @@
 
 // course()
 
-
 // const buttonElem = document.querySelectorAll("wrapper input");
 // const inputElem = document.querySelectorAll('#wrapper button');
 
@@ -504,7 +461,6 @@
 
 // console.log(buttonElem)
 // console.log(inputElem)
-
 
 // function getCookie(name , value , exdays){
 //     const d = new Date();
@@ -519,7 +475,6 @@
 //     console.log(document.cookie)
 // }
 
-
 // function myFunction(a) {
 
 //   // let b = a.toString();
@@ -530,7 +485,6 @@
 // }
 // console.log(myFunction(193278));
 
-
 // const carentDate = new Date();
 // const targetDate = new Date();
 // targetDate.setDate(targetDate.getDate()) ;
@@ -540,9 +494,7 @@
 // let mm = targetDate.getMonth() + 1;
 // let yyyy = targetDate.getFullYear();
 
-
 // console.log((dd + 1 ) - dd ,(mm + 1) - mm ,(yyyy ) - yyyy)
-
 
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // let b = fruits.slice(2)
@@ -551,7 +503,6 @@
 // window.onload = () => {
 //     storeStudent();
 // };
-
 
 // class Student {
 //     constructor(fname, lname, age) {
@@ -569,7 +520,6 @@
 // let student1 = new Student('sakib' , 'biswas' , 22);
 // arr.push(student1)
 // console.log(arr)
-
 
 // function storeStudent() {
 //     let allStudent;
@@ -593,8 +543,6 @@
 // console.log(storeStudent())
 // console.log(storeStudent());
 
-
-
 // const file = document.getElementById('file');
 // const output = document.getElementById('output');
 
@@ -608,9 +556,6 @@
 // console.log(fileSize)
 
 // })
-
-
-
 
 // function sortTable() {
 //     var table, rows, switching, i, x, y, shouldSwitch;
@@ -648,14 +593,12 @@
 //     }
 //   }
 
-
 //   const table = document.getElementById('myTable');
 
 //   let rows = table.rows;
 //   console.log(rows[1]);
 //   console.log(rows[1].parentNode);
 //   console.log(rows[1].parentNode.insertBefore(rows[1], rows[1]));
-
 
 // window.onload = () => {
 //     dataEntry();
@@ -682,25 +625,20 @@
 
 // }
 
-
-
 // id: name.id,
 //     name : name.name,
 //         year : name.year,
 //             color : name.color,
 
-
 // function chengeTr(){
 //     const tbody = document.getElementById('tbody');
 //     const tr = tbody.rows;
-    
+
 //     const arr = [];
 //     for(let i = 0; i < tr.length ; i++){
 //         let a = tbody.rows[i].cells
 //         arr.push(a[1].innerHTML)
 //         // tbody.insertBefore(tr[i + 1] , tr[i])
-
-        
 
 //     }
 
@@ -715,31 +653,26 @@
 
 // }
 
-
-
 // function myFunction(arr){
 
 // }
 
 // console.log(myFunction([ 1, 2 , 4, 5, 6 ,7 ]))
 
-
-
 // function shuffleArray(array) {
 //     for (var i = array.length - 1; i > 0; i--) {
-    
+
 //         // Generate random number
 //         var j = Math.floor(Math.random() * (i));
-                    
+
 //         var temp = array[i];
 //         array[i] = array[j];
 //         array[j] = temp;
 //         console.log(j)
 //     }
-        
+
 //     return array;
 //  }
-
 
 //  function shuffle(array) {
 //     array.sort(() => Math.random() - 0.5);
@@ -754,7 +687,6 @@
 
 // let a = Math.floor(Math.random() * 255);
 // console.log(a)
-
 
 // let arr = ['sakib', 'bakibilla', 'masud', 'azizul', 22]
 // console.log(arr)
@@ -775,10 +707,8 @@
 //     // var strTime = hours + ':' + minutes + ' ' + ampm;
 //     // return strTime;
 //   }
-  
+
 //   console.log(formatAMPM(new Date));
-
-
 
 // function clock(){
 //     let date = new Date;
@@ -790,7 +720,7 @@
 //     hour = hour % 12;
 //     let datePass = hour+ '' + minutes + ampm
 //     console.log(datePass)
-    
+
 //     submit.addEventListener('click' , () => {
 //         if(pass.value == datePass){
 //             document.write('login successfull')
@@ -798,35 +728,63 @@
 //             document.write('worng password')
 //         }
 //     })
-    
+
 // }
 
 // setInterval(clock , 1000*60)
 // clock();
 
-class Chair {
-    constructor(color, seatHeight, recliningAngle, backSupport, headSupport, padding, armRests, seatSize, isHeightAdjustable, isMovable){
-        //Defaults which can be changed by the subclass class.
-        this.color = color;
-        this.seatHeight = seatHeight;
-        this.recliningAngle = recliningAngle;
-        this.backSupport = true;
-        this.headSupport = false;
-        this.padding = "3 inch";
-        this.armRests = true;
-        this.seatSize = "16 inch";
-        this.isHeightAdjustable = false;
-        this.isMovable = false;
-        this.type = "Chair";
-    }
-    
-    adjustableHeight() {};
-    adjustAngle(){};
-    moveChair(){};    
-}
+// class Chair {
+//     constructor(color, seatHeight, recliningAngle, backSupport, headSupport, padding, armRests, seatSize, isHeightAdjustable, isMovable){
+//         //Defaults which can be changed by the subclass class.
+//         this.color = color;
+//         this.seatHeight = seatHeight;
+//         this.recliningAngle = recliningAngle;
+//         this.backSupport = true;
+//         this.headSupport = false;
+//         this.padding = "3 inch";
+//         this.armRests = true;
+//         this.seatSize = "16 inch";
+//         this.isHeightAdjustable = false;
+//         this.isMovable = false;
+//         this.type = "Chair";
+//     }
 
-const newChair = new Chair();
-newChair.color = 'red'
+//     adjustableHeight() {};
+//     adjustAngle(){};
+//     moveChair(){};
+// }
 
-console.log(newChair)
+// const newChair = new Chair();
+// newChair.color = 'red'
 
+// console.log(newChair)
+
+// function bestFriens(arr) {
+//     let max = arr[0].length;
+//     let result = arr[0];
+
+//     for (let i = 1; i < arr.length; i++) {
+//         let maxi = arr[i].length;
+//         if (maxi > max) {
+//             result = arr[i];
+//             result
+//         }
+//     }
+//     return result
+// }
+
+// bestFriens(['sakib', 'bakibilla', 'rajesh'])
+
+// function sum(arr) {
+//     let result = arr[0];
+//     document.getElementById('test').innerHTML = arr.reduce(myFunction);
+
+//     function myFunction(a, b) {
+//         if (a > b) {
+//             result = a;
+//         }
+//     }
+//     return result;
+// }
+// sum([2, 5, 6, 9, 7, 3, ])
