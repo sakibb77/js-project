@@ -788,3 +788,284 @@
 //     return result;
 // }
 // sum([2, 5, 6, 9, 7, 3, ])
+// =========================================================
+//               binary search
+// =========================================================
+// function binarySearch(arr, num) {
+//   let min = 0;
+//   let max = arr.length - 1;
+//   while (min <= max) {
+//     let midIndex = Math.floor((min + max) / 2);
+//     if (arr[midIndex] < num) {
+//       min = midIndex + 1;
+//     } else if (arr[midIndex] > num) {
+//       max = midIndex - 1;
+//     } else {
+//       return midIndex;
+//     }
+//   }
+//   return -1;
+// }
+
+// const result = binarySearch(
+//   [-5, -4, 2, 5, 8, 6, 23, 45, 55, 65, 77, 78, 85, 89, 90, 99],
+//   77
+// );
+
+/*
+ * Complete the vowelsAndConsonants function.
+ * Print your output using 'console.log()'.
+ */
+
+// =============================================================
+// =============================================================
+
+// function checkAge() {
+//   const nowYear = 2022;
+//   const birthYearNitu = nowYear - 1997;
+//   const birthYearRitu = nowYear - 1995;
+//   if (birthYearNitu > birthYearRitu) {
+//     console.log("nitu are older older");
+//   } else {
+//     console.log("ritu are older older");
+//   }
+// }
+// checkAge();
+
+// const sum = (arr) => {
+//   let i = 0;
+//   let result = 0;
+//   while (i < arr.length) {
+//     result += arr[i];
+//     i++;
+//   }
+//   return result;
+// };
+
+// const arr = sum([11, 27, 31, 45, 52, 61, 77, 84]);
+// console.log(arr);
+
+// const tumpaArray = [
+//   "Tumpa",
+//   "Rahman",
+//   2022 - 1996,
+//   "programmer",
+//   ["Sumaiya", "Nimmi", "Riyad"],
+//   true,
+// ];
+
+// for (let i = tumpaArray.length - 1; i >= 0; i--) {
+//   console.log(tumpaArray[i]);
+// }
+
+// const descrip = `Tumpa is ${tumpaArray[2]}, and she is a ${tumpaArray[3]}.
+// She has ${tumpaArray[4].length} friends, and Nimmi is her
+// ${tumpaArray[2] ? "best friend" : "friend"}.`;
+
+// console.log(descrip);
+
+// const years = [1991, 1994, 1995, 1996, 1998];
+// const evenNumbers = [];
+// for (let i = 0; i < years.length; i++) {
+//   if (years[i] % 2 === 0) {
+//     evenNumbers.push(years[i]);
+//   } else {
+//     continue;
+//   }
+// }
+
+// console.log(evenNumbers);
+
+// const student = {
+//   fullName: "sakib biswas",
+//   birthYear: 2000,
+//   ageCalculate: function () {
+//     return 2022 - this.birthYear;
+//   },
+// };
+
+// console.log(student.ageCalculate());
+
+// const arr1 = [23, 24, 32, 28, 26, 36, 21, 25];
+// const arr2 = [88, 86, 96, 75];
+
+// for (let i = 0; i < arr1.length; i++) {
+//   arr2.unshift(arr1[i]);
+// }
+
+// console.log(arr2);
+
+// const isLeapYear = (year) => {
+//   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//     console.log(year + " is a leap year");
+//   } else {
+//     console.log(year + " is not a leap year");
+//   }
+// };
+
+// isLeapYear(2000);
+
+// function getOdd() {
+//   let min = 20;
+//   let max = 30;
+//   let result = 0;
+//   let oddArr = [];
+//   for (let i = min; i <= max; i++) {
+//     if (i % 2 !== 0) {
+//       // let carryFn = () => (result += i);
+//       // carryFn();
+//       oddArr.push(i);
+//     }
+//   }
+//   const carrryFn = function (oddArr) {
+//     return function (a) {
+//       return function (b) {
+//         return function (c) {
+//           return function (d) {
+//             return function (e) {
+//               return a + b + c + d + e;
+//             };
+//           };
+//         };
+//       };
+//     };
+//   };
+//   return carrryFn(oddArr)(oddArr[0])(oddArr[1])(oddArr[2])(oddArr[3])(
+//     oddArr[4]
+//   );
+// }
+
+// console.log(getOdd());
+// getOdd();
+
+// function logCutter(woodCutter) {
+//   return woodCutter * 4;
+// }
+
+// function furnitureMaker(wood) {
+//   const woodPices = logCutter(wood);
+//   return woodPices / 2;
+// }
+
+// console.log(furnitureMaker(4));
+
+// function oddChecker() {
+//   const oddArray = [];
+//   for (let i = 0; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//       oddArray.push(i);
+//     }
+//   }
+//   return oddArray;
+// }
+
+// console.log(oddChecker());
+
+// function createArray(){
+
+// }
+
+// let arrOfOne = Array.from(Array(1000000).keys());
+// function sumOfArray(arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   return sum;
+// }
+
+// let firstD = Date.now();
+// // console.log(arrOfOne);
+// console.log(sumOfArray(arrOfOne));
+// let lastD = Date.now();
+// console.log(lastD - firstD / 1000);
+// function arrSort(sortArray) {
+//   return sortArray.sort((a, b) => a - b);
+// }
+// function binarySearch(arr, number) {
+//   let sortedArray = arrSort(arr);
+//   let min = 0;
+//   let max = sortedArray.length - 1;
+//   console.log(sortedArray);
+
+//   while (min < max) {
+//     let mid = Math.floor((min + max) / 2);
+//     if (number > sortedArray[mid]) {
+//       min = mid + 1;
+//     } else if (number < sortedArray[mid]) {
+//       max = mid - 1;
+//     } else {
+//       return mid;
+//     }
+//   }
+// }
+
+// console.log(binarySearch([5, 4, 8, 2, 1, -6, 9, 8, 7, 3, -5, 9, 56, 25], 5));
+
+// function same(arr1, arr2) {
+//   for (let i = 0; i < arr1.length; i++) {
+//     let currentIndex = arr2.indexOf(arr1[i] ** 2);
+//     if (currentIndex == -1) {
+//       return false;
+//     }
+//     arr2.splice(currentIndex, 1);
+//   }
+//   return true;
+// }
+
+// console.log(same([2, 4, 6], [16, 4, 36]));
+
+// function same(arr1, arr2) {
+//   if (arr1.length !== arr2.length) return false;
+
+//   let sequenceCounter1 = {};
+//   let sequenceCounter2 = {};
+
+//   for (let val of arr1) {
+//     sequenceCounter1[val] = sequenceCounter1[val] + 1 || 1;
+//   }
+//   for (let val of arr2) {
+//     sequenceCounter2[val] = sequenceCounter2[val] + 1 || 1;
+//   }
+//   for (let key in sequenceCounter1) {
+//     if (!(key ** 2) in sequenceCounter2) {
+//       return false;
+//     }
+//     if (sequenceCounter1[key ** 2] !== sequenceCounter1[key]) {
+//       return false;
+//     }
+//     return true;
+//   }
+// }
+
+// console.log(same([2, 4, 6, 2], [16, 4, 36, 4]));
+
+// function longestNumber(arr) {
+//   // for (let i = 0; i < arr.length; i++) {
+
+//   // }
+//   let result = 0;
+//   // arr.forEach(function (a) {
+//   //   if (a > result) {
+//   //     result = a;
+//   //   }
+//   // });
+//   arr.forEach((a) => (a > result ? (result = a) : 0));
+//   return result;
+// }
+
+// console.log(longestNumber([45, 15, 8, 56, 12, 85, 54]));
+
+function longestStringFind(arr) {
+  let result = 0;
+  arr.forEach(function (a) {
+    if (result <= a.length) {
+      result = arr.indexOf(a);
+    }
+  });
+  return arr[result];
+}
+
+console.log(
+  longestStringFind(["a", "sakib", "bakibilla", "afdgsdfgd", "sfggggggg"])
+);
